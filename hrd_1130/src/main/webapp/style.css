@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+a{text-decoration:none;color:inherit;}
+html,body{
+	width:100%;
+	height:100%;
+}
+header{
+	width:100%;
+	height:12%;
+	background-color:rgb(54, 94, 252);
+	text-align:center;
+	line-height:110px;
+	color:white;
+}
+nav{
+	width:100%;
+	height:5%;
+	background-color:rgb(108, 81, 174);
+}
+nav ul{
+	list-style:none;
+}
+nav ul li{
+	float:left;
+	padding:15px 30px;
+	color:white;
+}
+section{
+	width:100%;
+	height:78%;
+}
+section h3{
+	text-align:center;
+	padding:20px 0;
+}
+section .insert_table{
+	width:40%;
+	border:1px solid black;
+	margin:0 auto;
+	border-collapse:collapse;
+}
+.insert_table tr,td,th{
+	border:1px solid black;
+	height:40px;	
+}
+.insert_table th{
+	width:25%;
+}
+.insert_table td input{
+	height:20px;
+}
+.last{
+	text-align:center;
+}
+.last .buttons{
+	background-color:#777;
+	border-color:#777;
+	color:#fff;
+	width:15%;
+}
+.select_table{
+	width:60%;
+	border:1px solid black;
+	margin:0 auto;
+	border-collapse:collapse;	
+}
+.select_table td{
+	text-align:center;
+}
+.insertbutton{
+	text-align:center;
+	margin:20px 0;
+}
+.insertbutton a{
+	padding:10px 20px;
+	background-color:#444;
+	color:#fff;
+}
+
+footer{
+	width:100%;
+	height:5%;
+	background-color:rgb(54, 94, 252);
+	color:#fff;
+	text-align:center;
+}
